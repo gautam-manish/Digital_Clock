@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/Photos/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(31, 30, 28, 0.712);
+    font-size: 5vw;
+
+}
+
+#clock-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock{
+    font-size: 8.5vw;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(31, 30, 28, 0.712);
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    padding: 0px 20px;
+}
